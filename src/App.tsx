@@ -63,7 +63,7 @@ function App() {
 
   return (
     <Container>
-      <h1>Veículos</h1>
+      
       {loading ? (
         <div> 
           <p className="loader"></p>
@@ -71,7 +71,11 @@ function App() {
         </div>
       ) : (
         <>
+        <div className='header'>
+        <img src="./src/assets/SW-logo.png" alt="SW Logo" className="logo"></img>
+        </div>
           <div className='pagination'>
+            
             <Pages className="page" onClick={() => setCurrentPage(currentPage - 1)} disabled={currentPage === 1}>
               Página Anterior
             </Pages>

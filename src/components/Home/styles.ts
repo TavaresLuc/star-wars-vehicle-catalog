@@ -14,8 +14,9 @@ export const Container = styled.div`
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         column-gap: 3rem;
         row-gap: 3rem;
+        place-items: center;
+        padding: 0;
         
-    }
 
     li {
         padding: 1rem;
@@ -60,5 +61,9 @@ export const Pages = styled.button`
         display: flex;
         flex-direction: row;
         margin-bottom: 0.6rem;
+        justify-content: center;
+        align-items: center;
+
+       
         
 ` 

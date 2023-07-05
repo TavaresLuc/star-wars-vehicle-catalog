@@ -13,6 +13,8 @@
   margin-top: 2rem;
 }
 
+
+
 .loader {
   border: 2px solid;
   border-color: transparent #FFF;
@@ -53,3 +55,16 @@
     transform: rotate(360deg);
   }
 } 
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
